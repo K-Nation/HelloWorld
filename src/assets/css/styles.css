@@ -8,3 +8,49 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .card {
+        @apply flex items-center flex-col bg-white rounded-md w-[310px] p-4;
+    }
+
+    .profile {
+        @apply space-y-4;
+    }
+
+    .profile-header {
+        @apply flex items-center justify-center rounded-md p-4 h-36 mb-20 relative;
+    }
+
+    .profile-image {
+        @apply bg-contain w-40 h-40 rounded-full border-4 border-white absolute top-12;
+    }
+
+    .profile-name {
+        @apply font-ubuntu text-center text-xl;
+    }
+
+    .profile-summary {
+        @apply text-center;
+    }
+
+    .profile-links {
+        @apply flex justify-center;
+    }
+
+    .profile-link {
+        @apply block rounded-full w-12 h-12 leading-[2.9rem] text-center text-3xl;
+    }
+
+    .github {
+        @apply text-theme-gray hover:bg-theme-gray hover:text-white;
+    }
+
+    .twitter {
+        @apply text-blue-500 hover:bg-blue-500 hover:text-white;
+    }
+
+    .linkedin {
+        @apply text-blue-600 hover:bg-blue-600 hover:text-white;
+    }
+}

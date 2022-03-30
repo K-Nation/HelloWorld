@@ -1,0 +1,10 @@
+@import './main.css';
+@import './normalize.css';
+@import './nerdfont.css';
+@import './gradients.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

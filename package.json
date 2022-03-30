@@ -1,0 +1,51 @@
+{
+    "private": true,
+    "license": "MIT",
+    "scripts": {
+        "serve": "yarn lite-server",
+        "build:css:watch": "yarn build:css --watch",
+        "build:css": "npx postcss ./src/assets/css/styles.css -o ./public/css/styles.min.css",
+        "ci": "yarn install --frozen-lockfile"
+    },
+    "devDependencies": {
+        "@semantic-release/changelog": "^6.0.1",
+        "@semantic-release/commit-analyzer": "^9.0.2",
+        "@semantic-release/git": "^10.0.1",
+        "@semantic-release/release-notes-generator": "^10.0.3",
+        "autoprefixer": "^10.4.4",
+        "cssnano": "^5.1.5",
+        "lite-server": "^2.6.1",
+        "postcss": "^8.4.12",
+        "postcss-cli": "^9.1.0",
+        "postcss-import": "^14.0.2",
+        "prettier": "^2.5.1",
+        "semantic-release": "^19.0.2",
+        "tailwindcss": "^3.0.15"
+    },
+    "release": {
+        "branches": [
+            "main"
+        ],
+        "plugins": [
+            "@semantic-release/commit-analyzer",
+            "@semantic-release/release-notes-generator",
+            [
+                "@semantic-release/changelog",
+                {
+                    "changelogFile": "CHANGELOG.md"
+                }
+            ],
+            [
+                "@semantic-release/git",
+                {
+                    "assets": [
+                        "CHANGELOG.md",
+                        "package.json",
+                        "yarn.lock"
+                    ],
+                    "message": "chore(release): Release v${nextRelease.version}\n\n${nextRelease.notes}"
+                }
+            ]
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+
+ {
+  "injectChanges": true,
+  "files": [ "./public/**/*" ],
+  "watchOptions": { "ignored": "node_modules" },
+  "server": {
+    "baseDir": "./public"
+  }
+}

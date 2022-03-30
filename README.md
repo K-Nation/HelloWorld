@@ -1,8 +1,6 @@
-# Tailwind UI Template
+# Tis who we are!
 
-A template repository.
-![license](https://img.shields.io/github/license/asaidimu/ui-template)
+This repository an initiation step into K-Nation.
 
-## License
-
-This template is released under the [MIT](https://choosealicense.com/licenses/mit/) License.
+## TODO
+Flesh out this description.

@@ -1,9 +1,9 @@
 
  {
   "injectChanges": true,
-  "files": [ "./public/**/*" ],
+  "files": [ "./docs/**/*" ],
   "watchOptions": { "ignored": "node_modules" },
   "server": {
-    "baseDir": "./public"
+    "baseDir": "./docs"
   }
 }

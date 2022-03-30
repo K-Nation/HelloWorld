@@ -8,12 +8,15 @@
         "ci": "yarn install --frozen-lockfile"
     },
     "devDependencies": {
+        "@commitlint/cli": "^16.2.3",
+        "@commitlint/config-conventional": "^16.2.1",
         "@semantic-release/changelog": "^6.0.1",
         "@semantic-release/commit-analyzer": "^9.0.2",
         "@semantic-release/git": "^10.0.1",
         "@semantic-release/release-notes-generator": "^10.0.3",
         "autoprefixer": "^10.4.4",
         "cssnano": "^5.1.5",
+        "husky": "^7.0.4",
         "lite-server": "^2.6.1",
         "postcss": "^8.4.12",
         "postcss-cli": "^9.1.0",

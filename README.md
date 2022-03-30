@@ -15,10 +15,10 @@ Please read the [contribution guidelines](https://github.com/K-Nation/HelloWorld
 
 - [ ] Fork the repo.
 - [ ] Copy the profile template from `docs/profile-template.html`
-- [ ] Paste it into `docs/index.html` immediately above 
-`HTML
+- [ ] Paste it into `docs/index.html` immediately above
+```HTML
 <!-- END OF PROFILE LIST -->
-`
+```
 - [ ] Create a pull request and wait for a maintainer to merge.
 
 ### License

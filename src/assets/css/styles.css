@@ -11,7 +11,11 @@
 
 @layer components {
     .card {
-        @apply flex items-center flex-col bg-white rounded-md w-[310px] p-4;
+        @apply flex items-center flex-col;
+        @apply bg-white rounded-md border-2 border-transparent;
+        @apply w-[310px] p-4;
+        @apply transition-all duration-200 ease-in-out;
+        @apply hover:scale-105 hover:duration-200;
     }
 
     .profile {

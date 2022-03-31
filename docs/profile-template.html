@@ -2,37 +2,34 @@
 <li class="card">
     <div class="profile">
 
-        <div class="profile-header gradient-pink-flavour" >
+        <div class="profile-header {{ gradient_theme }}" >
             <!-- link your gravatar -->
-            <div alt="Jane Doe" class="profile-image bg-[url('../img/avatar2.jpg')]"> </div>
+            <div alt="{{ profile-name }}" class="profile-image bg-[url('{{ gravatar_url }}')]"> </div>
         </div>
 
+        <!-- add your name -->
         <h5 class="profile-name">
-            <!-- your name -->
-            Jane Doe
+            {{ profile-name }}
         </h5>
 
-        <p class="profile-summary">
         <!-- say something about yourself -->
-        Lorem, ipsum dolor sit amet consectetur adipisicing
-        elit. Quidem libero, voluptates consectetur repudiandae
-        in ipsum tenetur cum unde? Magnam porro unde at deleniti
-        itaque illo qui ipsam, nisi alias excepturi.
+        <p class="profile-summary">
+            {{ profile_summary }}
         </p>
 
         <div class="profile-links">
             <!-- link to your github profile -->
-            <a href="https://github.com/{{username}}" class="profile-link github">
+            <a href="{{ github_url }}" class="profile-link github">
                 <i class="nf nf-fa-github"></i>
             </a>
 
-            <a href="" class="profile-link linkedin">
+            <a href="{{ linkedin_url }}" class="profile-link linkedin">
                 <!-- link to your linkedin profile -->
                 <i class="nf nf-fa-linkedin_square"></i>
             </a>
 
             <!-- link to your twitter profile -->
-            <a href="" class="profile-link twitter">
+            <a href="{{ twitter_url }}" class="profile-link twitter">
                 <i class="nf nf-fa-twitter"></i>
             </a>
         </div>

@@ -11,15 +11,16 @@ bit of legwork to make their first contribution.
 
 ### How to contribute.
 Adding your profile to the catalog is in concept quite simple, but can be daunting for a noob.
-Please read the [contribution guidelines](https://github.com/K-Nation/HelloWorld/blob/main/CONTRIBUTING.md) then follow these steps to add your profile.
+Please read the [CONTRIBUTION GUIDELINES](https://github.com/K-Nation/HelloWorld/blob/main/CONTRIBUTING.md) then follow these steps to add your profile.
 
 - [ ] Fork the repo.
-- [ ] Copy the profile template from `docs/profile-template.html`
-- [ ] Paste it into `docs/index.html` immediately above 
+- [ ] Edit and copy the profile template from `docs/profile-template.html`. Please read the [COPYING INSTRUCTIONS](https://github.com/K-Nation/HelloWorld/blob/main/COPYING.md)
+- [ ] Paste your profile into `docs/index.html` immediately above
 `HTML
 <!-- END OF PROFILE LIST -->
 `
 - [ ] Create a pull request and wait for a maintainer to merge.
+
 
 ### License
 

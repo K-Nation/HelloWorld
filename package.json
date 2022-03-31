@@ -5,7 +5,8 @@
         "serve": "yarn lite-server",
         "build:css:watch": "yarn build:css --watch",
         "build:css": "npx postcss ./src/assets/css/styles.css -o ./docs/css/styles.min.css",
-        "ci": "yarn install --frozen-lockfile"
+        "ci": "yarn install --frozen-lockfile",
+        "gravatar": "node ./bin/gravatar_url.js"
     },
     "devDependencies": {
         "@commitlint/cli": "^16.2.3",

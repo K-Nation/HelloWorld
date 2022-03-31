@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/K-Nation/HelloWorld/compare/v1.1.0...v1.2.0) (2022-03-31)
+
+
+### Features
+
+* add copying instructions ([6e4e28e](https://github.com/K-Nation/HelloWorld/commit/6e4e28ea2b731d9932059fce47f7fe328cd82551))
+
 # [1.1.0](https://github.com/K-Nation/HelloWorld/compare/v1.0.0...v1.1.0) (2022-03-30)
 
 

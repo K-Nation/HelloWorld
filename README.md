@@ -16,9 +16,9 @@ Please read the [CONTRIBUTION GUIDELINES](https://github.com/K-Nation/HelloWorld
 - [ ] Fork the repo.
 - [ ] Edit and copy the profile template from `docs/profile-template.html`. Please read the [COPYING INSTRUCTIONS](https://github.com/K-Nation/HelloWorld/blob/main/COPYING.md)
 - [ ] Paste your profile into `docs/index.html` immediately above
-`HTML
+```HTML
 <!-- END OF PROFILE LIST -->
-`
+```
 - [ ] Create a pull request and wait for a maintainer to merge.
 
 

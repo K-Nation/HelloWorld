@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/K-Nation/HelloWorld/compare/v1.2.0...v1.2.1) (2022-03-31)
+
+
+### Bug Fixes
+
+* update my profile ([d948063](https://github.com/K-Nation/HelloWorld/commit/d948063d036a7d7ff4fe8295b70b2040f1bdaae1))
+
 # [1.2.0](https://github.com/K-Nation/HelloWorld/compare/v1.1.0...v1.2.0) (2022-03-31)
 
 

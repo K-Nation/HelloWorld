@@ -5,7 +5,7 @@
 Words enclosed in `{{` and `}}` are templates that need to be filled.
 For each template replace:
 
-- `{{ gravatar_url }}` A link to a Gravatar image. See [here](#profile_image) for more info.
+- `{{ gravatar_url }}` A link to a Gravatar image. See [Adding A Profile Image](#adding-a-profile-image) below for more info.
 - `{{ profile_name }}` Your profile name. Be official
 - `{{ linkedin_url }}` A link to your LinkedIn profile.
 - `{{ github_url }}` A link to your GitHub profile.
@@ -17,7 +17,7 @@ For each template replace:
     - gradient-skyline
 
 
-## Profile Image
+## Adding A Profile Image
 Profile images are linked using Gravatar.
 If you are not familiar with Gravatar, it is a service that allows you
 to host your profile picture so that its accessible across different
@@ -27,11 +27,11 @@ To generate a Gravatar URL; while at the root of this repository, run the
 following command replacing `my@email.address` with the email you used to
 set up your Gravatar account.
 
-``sh
-    yarn gravatar my@email.address
-``
+```sh
+yarn gravatar my@email.address
+```
 or 
 
-``sh
-    npm run gravatar my@email.address
-``
+```sh
+npm run gravatar my@email.address
+```

@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/K-Nation/HelloWorld/compare/v1.2.1...v1.2.2) (2022-04-03)
+
+
+### Bug Fixes
+
+* moved template to script to prevent overwriting ([f483195](https://github.com/K-Nation/HelloWorld/commit/f48319538a3aab1949b89d6fe60e0c3257595c83))
+
 ## [1.2.1](https://github.com/K-Nation/HelloWorld/compare/v1.2.0...v1.2.1) (2022-03-31)
 
 

@@ -1,5 +1,33 @@
 # Copying instructions
 
+## Installation and set up.
+Having read the contribution guidelines you should have a copy of the source on your local machine. Either way here is a
+recap: 
+
+    - [ ] Fork the repo.
+    - [ ] Clone your fork to your local machine.
+    - [ ] Install the project dependencies by running:
+    ```sh
+    yarn
+    ```
+    - [ ] Generate a copy of the profile template by running
+    ```sh
+    yarn template
+    ```
+    - [ ] Edit the profile template at `./profile-template.html`. See [Templates](#templates) below on how to edit the template.
+    - [ ] Paste your profile into `docs/index.html` immediately above
+    ```HTML
+    <!-- END OF PROFILE LIST -->
+    ```
+    - [ ] Generate the CSS by running
+    ```sh
+    yarn build:css
+    ```
+    - [ ] Verify that your details were added properly by running the website locally. Run the server with
+    ```sh
+    yarn serve
+    ```
+
 ## Templates
 
 Words enclosed in `{{` and `}}` are templates that need to be filled.
@@ -29,9 +57,4 @@ set up your Gravatar account.
 
 ```sh
 yarn gravatar my@email.address
-```
-or 
-
-```sh
-npm run gravatar my@email.address
 ```

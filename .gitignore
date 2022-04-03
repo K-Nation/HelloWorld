@@ -105,7 +105,8 @@ dist
 yarn-error.log
 dist/tsconfig.tsbuildinfo
 dist/tests/**/*
-dist/**/*
 .project
 resources
 resources/**/*
+profile-template.html
+package-lock.json

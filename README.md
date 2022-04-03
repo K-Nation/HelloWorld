@@ -11,25 +11,10 @@ bit of legwork to make their first contribution.
 
 ### How to contribute.
 Adding your profile to the catalog is in concept quite simple, but can be daunting for a noob.
-Please read the [CONTRIBUTION GUIDELINES](https://github.com/K-Nation/HelloWorld/blob/main/CONTRIBUTING.md) then follow these steps to add your profile.
-
-- [ ] Fork the repo and clone it to your machine.
-- [ ] Install all dependencies.
-- [ ] Edit and copy the profile template from `docs/profile-template.html`. Please read the [COPYING INSTRUCTIONS](https://github.com/K-Nation/HelloWorld/blob/main/COPYING.md)
-- [ ] Paste your profile into `docs/index.html` immediately above
-```HTML
-<!-- END OF PROFILE LIST -->
-```
-- [ ] Generate the CSS by running
-```sh
-yarn build:css
-```
-- [ ] Verify that your details were added properly by running the website locally. Run the server with
-```sh
-yarn serve
-```
+Please check of the following list.
+- [ ] Read the [CONTRIBUTION GUIDELINES](https://github.com/K-Nation/HelloWorld/blob/main/CONTRIBUTING.md).
+- [ ] Read the [COPYING INSTRUCTIONS](https://github.com/K-Nation/HelloWorld/blob/main/COPYING.md).
 - [ ] Commit your changes, push to GitHub and create a pull request.
-
 
 ### License
 

@@ -1,4 +1,7 @@
-<!-- template start -->
+const { writeFile } = require('fs/promises')
+const path = require('path')
+
+const template = `<!-- template start -->
 <li class="card">
     <div class="profile">
 
@@ -36,3 +39,22 @@
     </div>
 </li>
 <!-- template end -->
+`
+const writeTemplate = async ({ template }) => {
+    const file  = path.format({
+        dir: process.cwd(),
+        base: 'profile-template.html'
+    })
+    await writeFile(file, template)
+}
+
+const main = async () => {
+    try {
+        await writeTemplate({ template })
+        console.log("Template generated successfully.")
+    } catch (e) {
+        console.log("An error occurred.\n Please file an issue.")
+    }
+}
+
+main()

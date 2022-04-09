@@ -110,3 +110,7 @@ resources
 resources/**/*
 profile-template.html
 package-lock.json
+
+# ignore minified css
+docs/css/*
+

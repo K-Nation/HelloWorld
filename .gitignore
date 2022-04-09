@@ -110,3 +110,5 @@ resources
 resources/**/*
 profile-template.html
 package-lock.json
+
+*.lock

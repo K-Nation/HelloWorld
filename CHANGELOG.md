@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/K-Nation/HelloWorld/compare/v1.2.2...v1.2.3) (2022-04-09)
+
+
+### Bug Fixes
+
+* fix image src to display an image ([3c935a5](https://github.com/K-Nation/HelloWorld/commit/3c935a5fd7d0fe71f2689367d98e4746b3b8ba66))
+
 ## [1.2.2](https://github.com/K-Nation/HelloWorld/compare/v1.2.1...v1.2.2) (2022-04-03)
 
 
